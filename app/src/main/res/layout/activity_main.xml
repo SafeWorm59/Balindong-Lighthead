@@ -11,7 +11,18 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click Me"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:layout_below="@id/startbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Click Me" />
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Start" />
 
 </RelativeLayout>
